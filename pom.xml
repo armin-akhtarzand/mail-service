@@ -10,7 +10,7 @@
     </parent>
     <groupId>se.iths.armin</groupId>
     <artifactId>mail-service</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1.0.0-SNAPSHOT</version>
     <name>mail-service</name>
     <description>mail-service</description>
     <url/>
@@ -33,11 +33,6 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-mail</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-mail-test</artifactId>
-            <scope>test</scope>
         </dependency>
     </dependencies>
 
