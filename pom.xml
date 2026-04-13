@@ -35,6 +35,13 @@
             <artifactId>spring-boot-starter-mail</artifactId>
         </dependency>
     </dependencies>
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub Packages</name>
+            <url>https://maven.pkg.github.com/armin-akhtarzand/mail-service</url>
+        </repository>
+    </distributionManagement>
 
     <build>
         <plugins>
