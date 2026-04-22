@@ -10,7 +10,7 @@
     </parent>
     <groupId>se.iths.armin</groupId>
     <artifactId>mail-service</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.2</version>
     <name>mail-service</name>
     <description>mail-service</description>
     <url/>
@@ -48,6 +48,9 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+                <configuration>
+                    <classifier>exec</classifier>
+                </configuration>
             </plugin>
         </plugins>
     </build>
